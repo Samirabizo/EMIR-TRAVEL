@@ -1,4 +1,4 @@
-@extends('home')
+@extends('app')
 
 
 @section('title', "Contactez-nous")
@@ -59,7 +59,7 @@
           </div>
 
           <div class="col-lg-8">
-            <form action="{route('contact.send')}" method="Post" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
+            <form action="{{ route('contact.send')}}" method="Post" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
             @csrf
               <div class="row gy-4">
                 <div class="col-md-6">
