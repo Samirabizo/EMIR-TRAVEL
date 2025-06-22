@@ -25,10 +25,10 @@
     <section id="contact" class="contact section">
       <div class="container" data-aos="fade-up" data-aos-delay="100">
 
-        <div class="mb-4" data-aos="fade-up" data-aos-delay="200">
-          <!-- Remplacez par la carte du Gabon si besoin -->
+        <!-- <div class="mb-4" data-aos="fade-up" data-aos-delay="200">
+         Remplacez par la carte du Gabon si besoin 
           <iframe style="border:0; width: 100%; height: 270px;" src="https://www.google.com/maps?q=Libreville,+Gabon&output=embed" frameborder="0" allowfullscreen="" loading="lazy"></iframe>
-        </div>
+        </div> -->
 
         <div class="row gy-4">
 
