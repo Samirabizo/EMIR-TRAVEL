@@ -25,6 +25,6 @@ class ContactController extends Controller
         $data = $request->only(['name', 'subject', 'email', 'message']);
         Mail::to('samirabizo24@gmail.com')->send(new ContactMail($data));
 
-        return redirect()->route('contact.form')->with('success', 'Your message has been sent successfully!');
+        return redirect()->route('contact.form')->with('success', 'Votre message a été envoyé avec succès !');
     }
 }
