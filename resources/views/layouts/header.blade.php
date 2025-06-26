@@ -25,7 +25,7 @@
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
 
-      <a class="btn-getstarted" href="{{route('devis')}}">Demander un devis</a>
+      <a class="btn-getstarted" href="{{route('devis.send')}}">Demander un devis</a>
 
     </div>
   </header>
